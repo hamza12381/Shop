@@ -1,0 +1,24 @@
+2022-09-04T08:13:00+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\phlox\wp-content\themes\phlox-pro\auxin\auxin-include\include\functions.php:2926
+Stack trace:
+#0 C:\xampp\htdocs\phlox\wp-content\plugins\auxin-elements\public\includes\frontend-ajax.php(273): auxin_get_cart_basket('', 0)
+#1 C:\xampp\htdocs\phlox\wp-includes\class-wp-hook.php(307): auxels_get_refreshed_fragments('')
+#2 C:\xampp\htdocs\phlox\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\phlox\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\phlox\wp-admin\admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\phlox\wp-content\themes\phlox-pro\auxin\auxin-include\include\functions.php on line 2926
+
+2022-09-04T08:17:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "layerslider_uninstall_scripts" not found or invalid function name in C:\xampp\htdocs\phlox\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\phlox\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\phlox\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\phlox\wp-admin\includes\plugin.php(1265): do_action('uninstall_Layer...')
+#3 C:\xampp\htdocs\phlox\wp-admin\includes\plugin.php(958): uninstall_plugin('LayerSlider/lay...')
+#4 C:\xampp\htdocs\phlox\wp-admin\includes\ajax-actions.php(4668): delete_plugins(Array)
+#5 C:\xampp\htdocs\phlox\wp-includes\class-wp-hook.php(307): wp_ajax_delete_plugin('')
+#6 C:\xampp\htdocs\phlox\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\phlox\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\phlox\wp-admin\admin-ajax.php(187): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown in C:\xampp\htdocs\phlox\wp-includes\class-wp-hook.php on line 307
+

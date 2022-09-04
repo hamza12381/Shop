@@ -1,0 +1,17 @@
+2022-09-04T14:41:10+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int / string in C:\xampp\htdocs\ecommerce\wp-content\plugins\auxin-elements\includes\general-functions.php:2407
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-content\themes\phlox-pro\templates\theme-parts\entry\search-advanced.php(94): auxin_search_page_results('product', Array)
+#1 C:\xampp\htdocs\ecommerce\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ecommerce\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\ecommerce\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\phlox-pro\templates\theme-parts\loop-search.php(12): get_template_part('templates/theme...')
+#5 C:\xampp\htdocs\ecommerce\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ecommerce\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#7 C:\xampp\htdocs\ecommerce\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#8 C:\xampp\htdocs\ecommerce\wp-content\themes\phlox-pro\search.php(20): get_template_part('templates/theme...', 'search')
+#9 C:\xampp\htdocs\ecommerce\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\ecommerce\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\ecommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-content\plugins\auxin-elements\includes\general-functions.php on line 2407
+
